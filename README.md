@@ -1,128 +1,144 @@
-# ✋ 3D Hand Gesture Particle Control
+# ✋ Gesture Controlled 3D Particles
 
-An interactive **AI + Computer Vision + 3D Graphics** project where your **hand gestures control thousands of particles in real-time**.
-
-Using **MediaPipe Hand Tracking** and **Three.js**, this project transforms particles into beautiful **3D shapes like Sphere, Heart, Flower, Saturn, and Galaxy** based on your hand gestures.
-
-Move your hand, change colors, pinch to scale, and control a dynamic particle universe.
+A modern and interactive **3D particle visualization** built using **HTML, CSS, JavaScript, Three.js, and MediaPipe Hands**. The project uses real-time hand tracking to control particle animations, allowing users to morph shapes, change colors, and scale particles through hand gestures.
 
 ---
 
-## 🚀 Live Interaction
+## 🚀 Project Overview
 
-Control a **15,000 particle 3D system** using only your **hand gestures through webcam**.
+Gesture Controlled 3D Particles is a front-end web project designed to demonstrate:
 
-✨ Features real-time:
+* ✋ Real-Time Hand Gesture Recognition
+* 🌌 Interactive 3D Particle Visualizations
+* 🎨 Dynamic Shape Morphing
+* 💻 Computer Vision & Front-End Development
 
-* Gesture recognition
-* Shape morphing
-* Color control
-* Particle animation
-* Pinch scaling
-
----
-
-## 🧠 Technologies Used
-
-* 🧩 **Three.js** – 3D Graphics Rendering
-* ✋ **MediaPipe Hands** – Real-time Hand Tracking
-* 🎥 **Camera Utils** – Webcam processing
-* 🌐 **HTML + JavaScript** – Web Application
-* ⚡ **WebGL** – High performance rendering
+The project combines Three.js and MediaPipe Hands to create an immersive gesture-controlled 3D experience.
 
 ---
 
-## 🎮 Gesture Controls
+## ✨ Features
 
-| Gesture                | Action                      |
-| ---------------------- | --------------------------- |
-| 🖐 Open Hand           | Sphere                      |
-| ☝ 1 Finger             | Heart                       |
-| ✌ 2 Fingers            | Flower                      |
-| 🤟 3 Fingers           | Saturn                      |
-| 🖖 4 Fingers           | Galaxy                      |
-| ↔ Move Hand Left/Right | Change Particle Color       |
-| 🤏 Pinch               | Contract / Expand Particles |
+* ✋ Real-Time Hand Tracking
+* 🌌 Interactive 3D Particle System
+* ❤️ Morph Between Sphere, Heart, Flower, Saturn & Galaxy
+* 🎨 Dynamic Color Control
+* 🤏 Pinch Gesture for Particle Scaling
+* ⚡ Smooth Shape Transitions
+* 📱 Responsive Layout
+* 🚀 High-Performance Rendering
 
 ---
 
-## ✨ Visual Effects
+## 🛠️ Technologies Used
 
-* 🌌 15,000 animated particles
-* 🌈 Dynamic color shifting
-* 🔄 Smooth morphing between shapes
-* 💫 Twinkling particle lighting
-* 🪐 Procedural galaxy and planet structures
+| Technology      | Purpose                           |
+| --------------- | --------------------------------- |
+| HTML5           | Structure and Content             |
+| CSS3            | Styling and Layout                |
+| JavaScript      | Application Logic                 |
+| Three.js        | 3D Graphics Rendering             |
+| MediaPipe Hands | Hand Tracking & Gesture Detection |
+| WebGL           | Hardware Accelerated Graphics     |
 
 ---
 
 ## 📂 Project Structure
 
-```
-3d-Hand-Gesture
+```text
+gesture-controlled-3d-particles
 │
-├── 3d Hand Gesture.html
+├── hand-sensing-3D.html
 ├── README.md
 └── LICENSE
 ```
 
 ---
 
-## ▶️ How to Run
+## ⚙️ Installation
 
-1️⃣ Clone the repository
+### Clone the Repository
 
+```bash
+git clone https://github.com/Ebinezer-cloud/gesture-controlled-3d-particles.git
+cd gesture-controlled-3d-particles
 ```
-git clone https://github.com/rsamwilson2323-cloud/3d-Hand-Gesture.git
-```
-
-2️⃣ Open the project folder
-
-3️⃣ Run the file
-
-```
-3d Hand Gesture.html
-```
-
-4️⃣ Allow **camera access** when prompted.
-
-5️⃣ Start controlling the particles using your **hand gestures** ✋
 
 ---
 
-## 📸 Demo
+## ▶️ Run the Project
 
-Move your hand in front of the camera and watch particles transform into **beautiful 3D mathematical shapes**.
+Simply open the HTML file in a modern web browser:
+
+```bash
+hand-sensing-3D.html
+```
+
+> **Note:** Allow camera access when prompted for hand tracking to work correctly.
 
 ---
 
-## 🎯 Future Improvements
+## 🎮 Gesture Controls
 
-* 🔊 Sound reactive particles
-* 🧠 AI gesture recognition improvements
-* 🌍 VR / AR support
-* 🎨 More procedural particle shapes
-* 📱 Mobile support
+| Gesture                   | Action                      |
+| ------------------------- | --------------------------- |
+| 🖐️ Open Hand             | Sphere                      |
+| ☝️ One Finger             | Heart                       |
+| ✌️ Two Fingers            | Flower                      |
+| 🤟 Three Fingers          | Saturn                      |
+| 🖖 Four Fingers           | Galaxy                      |
+| ↔️ Move Hand Left / Right | Change Particle Color       |
+| 🤏 Pinch Gesture          | Expand / Contract Particles |
+
+---
+
+## 🎯 Project Goals
+
+* Learn Computer Vision Concepts
+* Build Interactive 3D Web Applications
+* Practice Three.js & MediaPipe Integration
+* Create Portfolio-Ready Creative Projects
+
+---
+
+## 🚧 Future Enhancements
+
+* 🤲 Multi-Hand Support
+* 🎵 Audio Reactive Particles
+* 🥽 VR / AR Compatibility
+* ✨ Additional Particle Effects
+* 📱 Mobile Gesture Support
 
 ---
 
 ## 👨‍💻 Author
 
-**Sam Wilson**
+**Ebinezer**
 
-🔗 GitHub: https://github.com/rsamwilson2323-cloud
-💼 LinkedIn: https://www.linkedin.com/in/sam-wilson-14b554385
+🚀 Aspiring Software Engineer
 
----
+📧 Email: [ebinezerebinezer857@gmail.com](mailto:ebinezerebinezer857@gmail.com)
 
-## ⭐ Support
+💼 LinkedIn: https://www.linkedin.com/in/ebinezer-ebinezer-ab8b61392/
 
-If you like this project, consider giving it a **⭐ on GitHub**.
-
-It helps others discover the project and motivates further development.
+🌐 GitHub: https://github.com/Ebinezer-cloud
 
 ---
 
 ## 📜 License
 
 This project is licensed under the **MIT License**.
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+⭐ Star the repository
+
+🍴 Fork the repository
+
+🤝 Contribute improvements
+
+🚀 Share it with others
